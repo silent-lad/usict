@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>USICT</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Work+Sans" rel="stylesheet">
+</head>
+<body id="home">
+
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-light fixed-top py-1">
+    <div class="container p-2">
+      <a href="#" class="navbar-brand"><h3 id="head_t" class="align-middle">USICT</h3></a>
+      <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item ">
+            <a href="index.html" class="nav-link"><span class="active">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" role="button" data-toggle="modal"
+              data-target=#loginModal>Log In</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-user"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a href="profile.html" class="dropdown-item">
+                <i class="fa fa-user-circle"></i> Profile
+              </a>
+              <a href="settings.html" class="dropdown-item">
+                <i class="fa fa-gear"></i> Settings
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Log In Modal Code -->
+  <div class="modal fade text-dark" id="loginModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalTitle">Log In</h5>
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Username</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-info btn-block">Log in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOWCASE -->
+  <section id="showcase" >
+    <div class="pic-overlay">
+
+      <!-- Inner Showcase -->
+      <div class="showcase-inner ">
+        <div class="container ">
+            <div id="in-between" class="text-center mt-5 pt-5">
+              <h1 class="display-1"><strong>USICT</strong></h1>
+              <p class="my-3"><span class="sky p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, explicabo.</span></p>
+              <p class="p-1 my-3 "><span class="sky p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, nisi.</span></p>
+              <p class="p-1 my-3"><span class="sky p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, suscipit qui, Lorem ipsum.</span></p>
+            </div>
+            <div class="col-lg-4 "></div>
+        </div>
+      </div>
+      <!-- Animated Icons -->
+      <!-- <section id="animate">
+        <div class="container">
+          <div class="row my-3 justify-content-center">
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/uhack.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                  <h3>U Hack</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora recusandae laboendis ab.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/uhack.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                  <h3>U Hack</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora recusandae laboendis ab.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/uhack.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                  <h3>U Hack</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora recusandae laboendis ab.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section> -->
+
+
+    </div>
+  </section>
+
+
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

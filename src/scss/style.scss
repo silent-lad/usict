@@ -1,0 +1,100 @@
+$sky : #96D2FF;
+$carbon : #A9A9A9;
+$watermelon : #FF3B3F;
+$neutral : #EFEFEF;
+$watermelon-overlay: rgba(255,59,63,0.6);
+$carbon-overlay: rgba(169,169,169,0.8);
+$sky-overlay: rgba(150,210,255,0.6);
+$neutral-overlay: rgba(239,239,239,0.9);
+$lol: rgb(170,170,170);
+$lol2: rgb(100,100,100);
+
+
+.navbar {
+
+
+  box-shadow: 2px 2px 5px $carbon;
+  opacity: 0.9;
+  background: #fff;
+
+  #head_t {
+    margin-top: 7px;
+    font-family: 'Oswald' ;
+    color: $carbon;
+  }
+  a {
+    .active{
+      color: $watermelon-overlay;
+    }
+
+    color: $carbon;
+  }
+  a:hover{
+    color: $watermelon-overlay !important;
+  }
+
+  .nav-item{
+    font-size: 1.4rem;
+    padding-right: 10px;
+  }
+}
+
+#showcase {
+  background: url('../img/usict.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 739px;
+
+  .pic-overlay {
+    background: $neutral-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  #in-between {
+    // margin: auto;
+
+    h1 {
+      margin-bottom: -70px;
+      color: $lol ;
+      font-size: 10rem;
+      font-family: 'Work+Sans', sans-serif;
+    }
+
+    .sky {
+      color: $lol2;
+      background-color: $sky-overlay;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+// #animate {
+//   img{
+//     margin-top: -50px;
+//     margin-left:auto;
+//     margin-right: auto;
+//   }
+//
+//   .fa{
+//     font-size: 25px;
+//   }
+//
+//   .card{
+//     background:$watermelon-overlay;
+//     color:#fff;
+//
+//     .fa{
+//       color:#fff;
+//     }
+//   }
+// }
+
+
+
+
+// BLOG PAGE
