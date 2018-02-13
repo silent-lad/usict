@@ -8,6 +8,7 @@ $sky-overlay: rgba(150,210,255,0.6);
 $neutral-overlay: rgba(239,239,239,0.8);
 $lol: rgb(170,170,170);
 $lol2: rgb(100,100,100);
+$lol3: rgb(200,200,200);
 
 
 .navbar {
@@ -76,20 +77,34 @@ $lol2: rgb(100,100,100);
   }
 }
 
+#about {
+  .sky {
+    background-color: $sky-overlay;
+    color: $lol2;
+
+  }
+}
+
 
 #showcase2 {
-  background-color: $neutral;
+  background-color: $lol3;
 
   #show_head {
-    color:$lol2;
     font-weight: bold;
   }
   .sky {
+    color: grey;
     background-color: $sky-overlay;
   }
   a:hover {
     text-decoration: none;
     color: white;
+  }
+}
+
+#contact {
+  .sky {
+    background-color: $sky-overlay;
   }
 }
 
