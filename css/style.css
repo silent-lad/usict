@@ -20,14 +20,16 @@
   background: url("../img/usict.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 739px; }
+  min-height: 628px; }
   #showcase .pic-overlay {
-    background: rgba(239, 239, 239, 0.9);
+    background: rgba(239, 239, 239, 0.8);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; }
+    height: 85%; }
+  #showcase .container {
+    margin-top: 130px; }
   #showcase #in-between h1 {
     margin-bottom: -70px;
     color: #aaaaaa;
@@ -37,3 +39,17 @@
     color: #646464;
     background-color: rgba(150, 210, 255, 0.6);
     font-size: 1.5rem; }
+
+#showcase2 {
+  background-color: #EFEFEF; }
+  #showcase2 #show_head {
+    color: #646464;
+    font-weight: bold; }
+  #showcase2 .sky {
+    background-color: rgba(150, 210, 255, 0.6); }
+  #showcase2 a:hover {
+    text-decoration: none;
+    color: white; }
+
+footer {
+  background-color: #aaaaaa; }

@@ -8,9 +8,11 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Work+Sans" rel="stylesheet">
 </head>
 <body id="home">
+
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-md navbar-light fixed-top py-1">
@@ -25,14 +27,14 @@
             <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="blog.html" class="nav-link"><span class="active">Blog</span></a>
+            <a href="blog.html" class="nav-link">Blog</a>
           </li>
           <li class="nav-item">
-            <a href="hall.html" class="nav-link">Hall Of Fame</a>
+            <a href="hall.html" class="nav-link"><span class="active">Hall Of Fame</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" role="button" data-toggle="modal"
-              data-target=#loginModal2>Log In</a>
+              data-target=#loginModal>Log In</a>
           </li>
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
@@ -53,7 +55,7 @@
   </nav>
 
   <!-- Log In Modal Code -->
-  <div class="modal fade text-dark" id="loginModal2">
+  <div class="modal fade text-dark" id="loginModal">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -80,28 +82,15 @@
     </div>
   </div>
 
-  <div style="height: 100vh"></div>
 
 
-  <!-- Footer -->
-  <footer id="main-footer" >
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <div class="py-4">
-              <h1 class="h3">USICT</h1>
-              <p>Copyright &copy; 2018</p>
-              <button class="btn btn-info" data-toggle="modal"
-                data-target=#contactModal>Contact Us</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/css3-animate-it.js"></script>
 
+  <script src="js/main.js"></script>
 </body>
 </html>

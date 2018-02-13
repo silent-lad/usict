@@ -5,7 +5,7 @@ $neutral : #EFEFEF;
 $watermelon-overlay: rgba(255,59,63,0.6);
 $carbon-overlay: rgba(169,169,169,0.8);
 $sky-overlay: rgba(150,210,255,0.6);
-$neutral-overlay: rgba(239,239,239,0.9);
+$neutral-overlay: rgba(239,239,239,0.8);
 $lol: rgb(170,170,170);
 $lol2: rgb(100,100,100);
 
@@ -43,7 +43,7 @@ $lol2: rgb(100,100,100);
   background: url('../img/usict.jpg') no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 739px;
+  min-height: 628px;
 
   .pic-overlay {
     background: $neutral-overlay;
@@ -51,12 +51,15 @@ $lol2: rgb(100,100,100);
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 85%;
 
+  }
+  .container {
+    margin-top: 130px;
   }
 
   #in-between {
-    // margin: auto;
+
 
     h1 {
       margin-bottom: -70px;
@@ -73,28 +76,23 @@ $lol2: rgb(100,100,100);
   }
 }
 
-// #animate {
-//   img{
-//     margin-top: -50px;
-//     margin-left:auto;
-//     margin-right: auto;
-//   }
-//
-//   .fa{
-//     font-size: 25px;
-//   }
-//
-//   .card{
-//     background:$watermelon-overlay;
-//     color:#fff;
-//
-//     .fa{
-//       color:#fff;
-//     }
-//   }
-// }
 
+#showcase2 {
+  background-color: $neutral;
 
+  #show_head {
+    color:$lol2;
+    font-weight: bold;
+  }
+  .sky {
+    background-color: $sky-overlay;
+  }
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
 
-
-// BLOG PAGE
+footer {
+  background-color: $lol;
+}

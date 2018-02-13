@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +10,8 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Work+Sans" rel="stylesheet">
 </head>
 <body id="home">
@@ -26,7 +30,10 @@
             <a href="index.html" class="nav-link"><span class="active">Home</span></a>
           </li>
           <li class="nav-item">
-            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="blog.html" class="nav-link">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a href="hall.html" class="nav-link">Hall Of Fame</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" role="button" data-toggle="modal"
@@ -81,72 +88,129 @@
   <!-- SHOWCASE -->
   <section id="showcase" >
     <div class="pic-overlay">
-
-      <!-- Inner Showcase -->
-      <div class="showcase-inner ">
-        <div class="container ">
+      <div class="showcase-inner animatedParent animateOnce">
+        <div class="container">
             <div id="in-between" class="text-center mt-5 pt-5">
-              <h1 class="display-1"><strong>USICT</strong></h1>
-              <p class="my-3"><span class="sky p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, explicabo.</span></p>
-              <p class="p-1 my-3 "><span class="sky p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, nisi.</span></p>
-              <p class="p-1 my-3"><span class="sky p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, suscipit qui, Lorem ipsum.</span></p>
+              <h1 class="display-1 animated growIn " data-id='1'><strong>USICT</strong></h1>
+              <p class="my-3 animated growIn slow" data-id='2'><span class="sky p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, explicabo.</span></p>
+              <p class="p-1 my-3 animated growIn slower" data-id='3'><span class="sky p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, nisi.</span></p>
+              <p class="p-1 my-3 animated growIn slowest" data-id='4'><span class="sky p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, suscipit qui</span></p>
             </div>
             <div class="col-lg-4 "></div>
         </div>
       </div>
-      <!-- Animated Icons -->
-      <!-- <section id="animate">
-        <div class="container">
-          <div class="row my-3 justify-content-center">
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-body">
-                  <img src="img/uhack.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-                  <h3>U Hack</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora recusandae laboendis ab.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-body">
-                  <img src="img/uhack.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-                  <h3>U Hack</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora recusandae laboendis ab.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-body">
-                  <img src="img/uhack.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-                  <h3>U Hack</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora recusandae laboendis ab.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-      </section> -->
-
-
     </div>
   </section>
 
 
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="text-center p-5"><span class="w3-tag w3-wide">Why We Need To Be Known</span></h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt officiis minus maxime at, hic natus aperiam obcaecati, totam similique voluptate pariatur consequatur quasi soluta. Architecto, quidem error maiores amet quisquam hic repellendus praesentium cupiditate dolorem magni perferendis inventore nostrum corporis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ullam!</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+    </div>
+  </div>
+</div>
 
+<!-- second showcase ,about the creators-->
+
+<section id="showcase2" >
+    <div class="text-center my-5 pt-5" id="show_head">
+      <h1><span class="sky p-2">Want Some Help?</span></h1>
+    </div>
+    <div id="show_body" >
+      <p class="my-3 mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos necessitatibus nesciunt perferendis sequi sapiente cum, ullam adipisci natus vitae? Voluptatem est, magnam quo repudiandae fuga pariatur laboriosam nisi odit. Eligendi molestias, quam at facere dolor. </p>
+      <div class=" container">
+        <div class="card-columns">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwLd5QGzzpGYYsY0TU7XIRJLjVUjAFwcvhHYzRGUtwJk5WQ5wY" alt="Card image cap">
+                <div class="card-body">
+                <h4 class="card-title">A sample blog on coding by  seniors</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ut architecto, nisi harum explicabo nam, perferendis odio, itaque qui molestias optio vero maiores sint! Odio sint sequi, dolores id placeat.</p>
+                <button class="btn btn-primary-outline"><a href="#">Read More</a></button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="https://marketing-prod.global.ssl.fastly.net/sites/default/files/2017-03/GA_Coding_2x_2.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h4 class="card-title">A sample blog on coding by  seniors</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ut architecto, nisi harum explicabo nam, perferendis odio, itaque qui molestias optio vero maiores sint! Odio sint sequi, dolores id placeat.</p>
+                <button class="btn btn-primary-outline"><a href="#">Read More</a></button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="http://futurefocusfoundation.us/wp-content/uploads/2016/07/coding.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h4 class="card-title">A sample blog on coding by  seniors</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ut architecto, nisi harum explicabo nam, perferendis odio, itaque qui molestias optio vero maiores sint! Odio sint sequi, dolores id placeat.</p>
+                <button class="btn btn-primary-outline"><a href="#">Read More</a></button>
+                </div>
+            </div>
+
+          </div>
+      </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer id="main-footer" >
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="py-4">
+            <h1 class="h3">USICT</h1>
+            <p>Copyright &copy; 2018</p>
+            <button class="btn btn-info" data-toggle="modal"
+              data-target=#contactModal>Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Contact Modal -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalTitle">Contact Us</h5>
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary-outline btn-block">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/css3-animate-it.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
