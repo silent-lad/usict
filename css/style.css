@@ -60,3 +60,21 @@
 
 footer {
   background-color: #aaaaaa; }
+
+.hallOfFame .wm {
+  background-color: rgba(255, 59, 63, 0.6); }
+
+.hallOfFame .carbon {
+  background-color: #A9A9A9; }
+
+.hallOfFame .card {
+  margin: 10px; }
+
+.hallOfFame .card-title:hover {
+  cursor: pointer; }
+
+.hallOfFame .od {
+  background-color: #A9A9A9; }
+
+.hallOfFame .ev {
+  background-color: #EFEFEF; }

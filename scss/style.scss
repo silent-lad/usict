@@ -111,3 +111,30 @@ $lol3: rgb(200,200,200);
 footer {
   background-color: $lol;
 }
+
+
+.hallOfFame {
+  .wm{
+    background-color: $watermelon-overlay;
+  }
+
+  .carbon {
+    background-color: $carbon;
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+  .card-title:hover{
+    cursor: pointer;
+  }
+    .od {
+      background-color: $carbon;
+    }
+    .ev{
+      background-color: $neutral;
+    }
+
+
+}
